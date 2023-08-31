@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Tweet</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1>Update Tweet</h1>
+    <div class="data"><div class="box">
+    <h3 class="id">ID : @<%=post.id%></h3>
+    <h3 class="username">Username : @<%=post.username%></h3>
+    
+    <br>
+    <form method="post" action="/home/<%=post.id%>?_method=PATCH">
+        
+        <textarea name="tweet" placeholder="Tweet"><%= post.tweet %></textarea>
+        <br>
+        <button>Update</button>
+    </div></div>
+
+    </form>
+</body>
+</html>

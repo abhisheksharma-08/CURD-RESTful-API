@@ -1,0 +1,83 @@
+*{
+    background-color: aliceblue;
+    
+    
+}
+.data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+h1{
+  
+    text-align: center;
+    color: #00acee;
+}
+.box{
+    border: 2px solid #00a2ed;
+    border-radius: 10px 10px 0 0 ;
+    height: 50vh;
+    width: 70vw;
+    background-color: #00b9fb;
+    
+    text-align: center;
+    padding: 0%;
+  
+    
+    
+}
+.click{
+    background-color: #008aed;
+    display: flex;
+    justify-content: space-evenly;
+    position: static;
+    width: 70vw;
+    margin-top: 0px;
+    padding-top: 0px;
+   height: 35px;
+   border: 2px solid #00a2ed;
+   border-radius: 0 0 10px 10px  ;
+  
+    align-items: center;
+    margin-bottom: 4rem;
+}
+.newtweet{
+    position: fixed;
+    bottom: 100px;
+    right: 60px;
+    width: 6rem;
+    height: 4rem;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #07090c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    font-size: medium;
+}
+.id{
+    background-color: #00b9fb;
+}
+.username{
+    background-color: #00b9fb;
+}
+.tweet{
+    background-color: #00b9fb;
+    font-size: larger;
+}
+.expand,.update,.delete{
+   background-color: #00bfff;
+   text-decoration: none;
+   border-radius: 10px;
+   width: 5rem;
+   text-align: center;
+
+
+}
+
+button{
+    text-decoration: none;
+}
